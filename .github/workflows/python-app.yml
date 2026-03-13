@@ -41,4 +41,4 @@ jobs:
               uses: docker/build-push-action@v6
               with:
                 push: true
-                tags: gcr.io/Aksnesz/practica10:latest
+                tags: gcr.io/aksnesz/practica10:latest
