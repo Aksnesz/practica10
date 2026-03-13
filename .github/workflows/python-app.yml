@@ -41,4 +41,5 @@ jobs:
               uses: docker/build-push-action@v6
               with:
                 push: true
-                tags: gcr.io/aksnesz/practica10:latest
+                tags: ghcr.io/${{ github.repository }}/practica10:latest
+                context: .
